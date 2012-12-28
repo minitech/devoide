@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Devoide Video Editor</title>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/editor.css" />
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="scripts/accelerate.js"></script>
+		<script type="text/javascript" src="scripts/editor.js" async="async"></script>
+	</head>
+	<body>
+		<input type="file" id="upload-box" accept="video/*" multiple="multiple" />
+
+		<div id="file-box"></div>
+
+		<script type="text/javascript">
+		Accelerate.raiseOnce('ready');
+		</script>
+	</body>
+</html>
